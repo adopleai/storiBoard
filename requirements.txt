@@ -1,27 +1,27 @@
 whisper==1.0.0
 
 #updating apt and installing the ffmeg modules for working with videos and audios
-sudo apt update && sudo apt install ffmpeg
+ffmpeg
 
 #installing setup rust
-pip install setuptools-rust
+setuptools-rust
 
 #installing imageio==2.4.1 dependency
-pip install imageio==2.4.1
+imageio==2.4.1
 
 #pyannotate for speaker diarization
-pip install pyannote.audio
+pyannote.audio
 
 #moviepy for editing
-pip install moviepy
+moviepy
 
 #streamlit for UI
-pip install streamlit
+streamlit
 
 #pytube for donwloading youtube videos
-pip install pytube
+pytube
 
 #deepgram
-pip install deepgram-sdk
+deepgram-sdk
 
-pip install pysrt
+pysrt
